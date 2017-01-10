@@ -8,6 +8,10 @@ body {
 	font-family: monospace;
 }
 
+form {
+	margin: 0;
+}
+
 .nav-container {
 	position: absolute;
 	top: 50%;
@@ -35,7 +39,7 @@ body {
 }
 
 .links-box {
-	width: 150;
+	width: 150px;
 	height: 150px;
 	margin-right: 8px;
 	display: inline-block;
