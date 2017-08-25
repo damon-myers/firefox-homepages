@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
-	// Set focus on the search bar when the page loads
-	document.getElementById("search").focus();
-});
+// Set focus on the search bar when the page loads
+window.onload = function() {
+  document.getElementById("search").focus();
+}
